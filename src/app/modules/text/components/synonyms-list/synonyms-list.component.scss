@@ -6,6 +6,12 @@ ul{
     li:hover:nth-child(1){
         font-weight: initial;
     }
+    li {
+        padding: 14px;
+        color: blue;
+        background-color: white;
+        border-color: white;
+    }
    
 }
 

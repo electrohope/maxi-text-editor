@@ -1,18 +1,15 @@
 <div class="container-fluid screen-height">
   <div class="row">
       <div class="col">
-          <app-synonyms-list [list]="synonymsList" [loading]="loading"></app-synonyms-list>
-        </div>
+      </div>
 
-           <!-- Content here -->
-    <div class="file col-8">
+      <div class="file col-8">
         <app-word [word]="item"  (dblclick)="setSelectedWord(item)"   *ngFor="let item of text ;trackBy: trackByFn"></app-word>
       </div>
+
       <div class="col">
-         
-        </div>
+        <app-synonyms-list [list]="synonymsList" [loading]="loading"></app-synonyms-list>
+      </div>
   </div>
-
-
-  </div>
+</div>
 
