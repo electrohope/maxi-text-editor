@@ -1,0 +1,14 @@
+ul{
+    height: 80vh;
+    li:hover:nth-child(n){
+        font-weight: bold;
+    }
+    li:hover:nth-child(1){
+        font-weight: initial;
+    }
+   
+}
+
+.pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+<div class="format-actions">
+    <button 
+      class="format-action btn btn-secondary" 
+      (click)="toggleFeature(item.name)">{{item.symbol}}
+      *ngFor="let item of allowedFeatures" 
+      [ngClass]="isActive(item.name)" 
+      type="button"
+    </button>
+
+  <span>Selected Word: {{selectedWord.text}}</span>
+</div>
